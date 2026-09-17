@@ -1,0 +1,221 @@
+body {
+
+    background-color: #f5f6f8;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+/* 전체 페이지 */
+
+.page-container {
+
+    padding-top: 45px;
+
+    padding-bottom: 45px;
+
+    flex: 1;
+
+}
+
+
+/* 제목 */
+
+h1 {
+
+    font-weight: 700;
+
+}
+
+
+/* 카드 */
+
+.card {
+
+    border: none;
+
+    border-radius: 12px;
+
+}
+
+
+/* Form 최대 폭 */
+
+.form-box {
+
+    max-width: 760px;
+
+    margin: 0 auto;
+
+}
+
+
+/* Input */
+
+.form-control,
+.form-select {
+
+    min-height: 45px;
+
+}
+
+
+/* Table 링크 */
+
+table a {
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+
+table a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* 상세 페이지 */
+
+.detail-row {
+
+    display: grid;
+
+    grid-template-columns: 170px 1fr;
+
+    gap: 15px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #dddddd;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: #212529;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: auto;
+
+}
+
+
+/* Bootstrap Example */
+
+.signin-page {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+
+.signin-box {
+
+    width: 100%;
+
+    max-width: 400px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+}
+
+
+.friend-logo {
+
+    width: 60px;
+
+    height: 60px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #212529;
+
+    color: white;
+
+    border-radius: 12px;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    .page-container {
+
+        padding-top: 25px;
+
+        padding-bottom: 25px;
+
+    }
+
+
+    h1 {
+
+        font-size: 28px;
+
+    }
+
+
+    .detail-row {
+
+        grid-template-columns: 1fr;
+
+        gap: 5px;
+
+    }
+
+
+    .btn {
+
+        width: 100%;
+
+    }
+
+
+    table {
+
+        min-width: 850px;
+
+    }
+
+}
