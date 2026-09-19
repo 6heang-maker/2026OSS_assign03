@@ -28,7 +28,6 @@ index.html에는 다음 정보를 표시했습니다.
 
 ## Validation
 
-add.html과 edit.html에서 다음 조건을 확인하도록 만들었습니다.
 
 - 이름은 2글자 이상 입력
 - 친구 관계 선택
@@ -41,8 +40,6 @@ add.html과 edit.html에서 다음 조건을 확인하도록 만들었습니다.
 ## RWD
 
 Bootstrap의 table-responsive와 CSS Media Query를 사용했습니다.
-
-모바일 화면에서는 상세 정보가 한 줄씩 나오도록 했습니다.
 
 Table이 화면보다 큰 경우에는 가로 스크롤을 이용해서 볼 수 있도록 했습니다.
 
@@ -62,7 +59,7 @@ Table이 화면보다 큰 경우에는 가로 스크롤을 이용해서 볼 수 
 - form-floating
 
 
-## Problem & Solution
+## Problem 
 
 모바일 화면에서 Table이 화면 밖으로 넘어가는 문제가 있었습니다.
 
