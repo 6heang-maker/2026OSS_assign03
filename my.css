@@ -1,178 +1,132 @@
 body {
-
-    background-color: #f5f6f8;
+    background-color: #f5f5f5;
 
     min-height: 100vh;
 
     display: flex;
-
     flex-direction: column;
-
 }
 
 
-/* 전체 페이지 */
+/* Page */
 
-.page-container {
-
-    padding-top: 45px;
-
-    padding-bottom: 45px;
+.main {
+    padding-top: 40px;
+    padding-bottom: 60px;
 
     flex: 1;
-
 }
 
 
-/* 제목 */
+/* Header */
 
 h1 {
-
-    font-weight: 700;
-
+    font-size: 30px;
 }
 
 
-/* 카드 */
+/* Navigation */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+/* Card */
 
 .card {
-
-    border: none;
-
-    border-radius: 12px;
-
+    border-radius: 10px;
 }
 
 
-/* Form 최대 폭 */
+/* Form */
 
 .form-box {
+    max-width: 700px;
+    margin: auto;
+}
 
-    max-width: 760px;
-
-    margin: 0 auto;
-
+.form-label {
+    font-weight: 500;
 }
 
 
-/* Input */
+/* Input / Select */
 
 .form-control,
 .form-select {
-
-    min-height: 45px;
-
+    margin-top: 5px;
 }
 
 
-/* Table 링크 */
+/* Button */
+
+.btn {
+    margin-right: 5px;
+}
+
+
+/* Table */
 
 table a {
-
     text-decoration: none;
-
-    font-weight: 600;
-
 }
-
 
 table a:hover {
-
     text-decoration: underline;
-
 }
 
 
-/* 상세 페이지 */
+/* View */
 
-.detail-row {
-
+.detail {
     display: grid;
 
-    grid-template-columns: 170px 1fr;
-
-    gap: 15px;
+    grid-template-columns: 150px 1fr;
 
     padding: 15px 0;
 
     border-bottom: 1px solid #dddddd;
-
 }
 
 
 /* Footer */
 
 footer {
-
     background-color: #212529;
-
     color: white;
 
     text-align: center;
 
-    padding: 20px;
+    padding: 15px;
 
     margin-top: auto;
-
 }
 
 
 /* Bootstrap Example */
 
-.signin-page {
-
+.login {
+    width: 100%;
     min-height: 100vh;
 
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 
     padding: 20px;
-
 }
 
-
-.signin-box {
-
-    width: 100%;
-
-    max-width: 400px;
+.login-box {
+    width: 350px;
 
     background-color: white;
 
     padding: 30px;
 
-    border-radius: 15px;
+    border-radius: 10px;
 
-}
-
-
-.friend-logo {
-
-    width: 60px;
-
-    height: 60px;
-
-    margin: auto;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    background-color: #212529;
-
-    color: white;
-
-    border-radius: 12px;
-
-    font-size: 28px;
-
-    font-weight: bold;
-
+    text-align: center;
 }
 
 
@@ -180,42 +134,28 @@ footer {
 
 @media (max-width: 576px) {
 
-    .page-container {
-
-        padding-top: 25px;
-
-        padding-bottom: 25px;
-
+    .main {
+        padding-top: 20px;
     }
-
 
     h1 {
-
-        font-size: 28px;
-
+        font-size: 25px;
     }
 
-
-    .detail-row {
-
+    .detail {
         grid-template-columns: 1fr;
-
-        gap: 5px;
-
     }
-
-
-    .btn {
-
-        width: 100%;
-
-    }
-
 
     table {
+        min-width: 800px;
+    }
 
-        min-width: 850px;
+    .btn {
+        margin-bottom: 5px;
+    }
 
+    .login-box {
+        width: 100%;
     }
 
 }
